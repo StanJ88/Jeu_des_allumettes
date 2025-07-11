@@ -1,0 +1,79 @@
+.titre {
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: #c04029;
+  padding: 1rem 2rem;
+  display:flex;
+  border-radius: 6px;
+  font-family:'Cabin Sketch', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+background-image: url('https://images.unsplash.com/photo-1603484477859-abe6a73f9366?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#jeu {
+
+display:grid;
+justify-content: center;
+align-items: center;
+  font-family:'Caveat', cursive;
+  font-size: medium;
+
+}
+
+#soumettre {
+ padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #bb3821;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+
+}
+
+
+#soumettre:hover {
+    transform: translateY(5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+#allumettes {
+text-align: center;
+height: 30px;
+background-color: rgb(216, 188, 153);
+
+}
+
+#text {
+  display: grid;
+  justify-content: flex-end;
+  align-items: center;
+  font-size:xx-large;
+  font-family:'Caveat', cursive;
+
+
+
+}
+
+#description {
+display: flex;
+justify-content: flex-start;
+font-size:35px;
+font-family:'Caveat', cursive;
+
+
+}
+
+.motColoré {
+  color: #ea4528; 
+}

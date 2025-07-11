@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le jeu des allumettes</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="titre">
+    <h1>Le jeu des allumettes</h1>
+    </div>
+    <hr>
+    <div id="description">
+        <p id="règles"> Il y a <strong><span class="motColoré">50</span></strong> allumettes,
+            <br> tu as le droit d'en retirer entre <strong><span class="motColoré">1</span></strong> et <strong><span class="motColoré">6</span></strong>. 
+            <br>Celui qui retire la dernière allumette a gagné.
+            <br> bonne chance !</span>
+    </div>
+    <div id="jeu">
+        <h2>Nombres d'allumettes à retirer : </h2>
+        <br>
+        <input type="number" id="allumettes" name="allumettes" min="1" max="6" />
+        <input type="submit" id="soumettre" value="Choisir">
+    </div>
+    <div id="text"></div>
+</body>
+</html>
